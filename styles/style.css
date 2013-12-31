@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#puzzle {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* pour changer la couleur du fond */
+/*#puzzle > div {
+    background: red;
+}*/
+
+/* la vue miniature du puzzle */
+#picture {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+#picture img {
+    border: 5px solid red;
+    border-top: none;
+}
+
+/* miniature - réduite */
+.small {
+    width: 5%;
+}
+
+/* miniature - aggrandie */
+.large {
+    width: 20%;
+}

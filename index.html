@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Puzzle</title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <!-- pour bloquer le zoom -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+    <body>
+        <div id="puzzle">
+            <!-- le puzzle sera ici -->
+        </div>
+        <div id="picture" class="small">
+            <!-- l'image du puzzle, utilisée directement comme miniature sur le côté - peut-être cachée dans les options -->
+            <img id="sideImage" src="images/test.jpg" width="100%"></img>
+        </div>
+        
+        <audio class="bravo">
+            <source src="audio/tada.mp3" type="audio/mpeg">
+        </audio>
+
+        <script src="scripts/lib/jquery-2.0.3.min.js"></script>
+        <script src="scripts/lib/underscore-min.js"></script>
+        <!-- pour le dessin sur canvas -->
+        <script src="scripts/lib/kinetic-v4.7.4.min.js"></script>
+
+        <script src="scripts/options.js"></script>
+        <script src="scripts/puzzle.js"></script>
+    </body>
+</html>
+
