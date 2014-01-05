@@ -264,7 +264,8 @@ $('#picture').on('click', function() {
  * Function appelée automatiquement quand la page est chargée.
  * Configure et initialise le puzzle.
  */
-$(document).ready(function() {
+//$(document).ready(function() {
+$(window).load(function () {
     if (puzzleOptions.showMiniature) {
         $('#picture').show();
     } else {
